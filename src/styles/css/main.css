@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand");
+body {
+  margin: 0; }
+
+.navbar {
+  background-color: #1f262a;
+  padding: 20px; }
+
+.navLogo {
+  height: 50px; }
+
+.navMenu {
+  display: flex;
+  float: right;
+  margin: 0; }
+  .navMenu li {
+    display: flex; }
+    .navMenu li .menuItem {
+      padding: 20px;
+      display: flex;
+      color: #d2d9db;
+      text-decoration: none;
+      font-size: 1.2rem;
+      font-family: "Quicksand", sans-serif;
+      text-transform: capitalize; }
+      .navMenu li .menuItem:hover {
+        color: #1190cb; }
+
+/*# sourceMappingURL=main.css.map */
