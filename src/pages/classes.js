@@ -3,10 +3,6 @@ import { Helmet } from "react-helmet"
 import Layout from "../components/layout"
 
 export default class Homepage extends React.Component{
-    constructor(props){
-        super(props)
-
-    }
 
     render(){
         

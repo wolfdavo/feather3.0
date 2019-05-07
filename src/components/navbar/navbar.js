@@ -33,7 +33,7 @@ class Navbar extends React.Component {
                     <li><Link className="menuItem" to="/classes">Classes</Link></li>
                     <li><Link className="menuItem" to="/contact">Get in touch</Link></li>
                 </ul>
-                <div onClick={this.toggleDropDownMenu} className={"navToggleButton" + " " + this.state.dropdownState + "Toggler"}>&#11167;</div>
+                <div onClick={this.toggleDropDownMenu} className={"navToggleButton " + this.state.dropdownState + "Toggler"}>&#11167;</div>
             </nav>
             </div>
         )
