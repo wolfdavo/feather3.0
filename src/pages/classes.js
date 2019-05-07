@@ -13,7 +13,7 @@ export default class Homepage extends React.Component{
         return(
             <Layout>
             <Helmet>
-                <title>Feather Consulting</title>
+                <title>Feather Consulting - classes</title>
             </Helmet>
             </Layout>
         )
