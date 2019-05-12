@@ -12,8 +12,21 @@ export default class Homepage extends React.Component{
             <Helmet>
                 <title>Feather Consulting</title>
             </Helmet>
-            <Hero/>
+            <Hero data={this.props.data}/>
             </Layout>
         )
     }
 }
+
+export const query = graphql`
+  query {
+    file(relativePath: { eq: "hero.jpg" }) {
+      childImageSharp {
+        # Specify the image processing specifications right in the query.
+        # Makes it trivial to update as your page's design changes.
+        fluid(maxWidth: 1920) {
+            ...GatsbyImageSharpFluid_tracedSVG
+        }
+      }
+    }
+  }`

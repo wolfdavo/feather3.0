@@ -1,9 +1,9 @@
-@import url("https://fonts.googleapis.com/css?family=Quicksand");
+@import url("https://fonts.googleapis.com/css?family=Julius+Sans+One|Press+Start+2P|Quicksand");
 body {
   margin: 0; }
 
 .navbar {
-  background-color: #1f262a;
+  background-color: #eaeaea;
   padding: 20px;
   position: fixed;
   display: flex;
@@ -31,7 +31,7 @@ body {
     .navMenu li .menuItem {
       padding: 20px;
       display: flex;
-      color: #d2d9db;
+      color: #1f262a;
       text-decoration: none;
       font-size: 1.2rem;
       font-family: "Quicksand", sans-serif;
@@ -52,7 +52,7 @@ body {
 .dropdown {
   position: fixed;
   display: none;
-  background-color: #1f262a;
+  background-color: #eaeaea;
   top: 0;
   left: 0;
   width: 100%;
@@ -66,7 +66,7 @@ body {
       .dropdown ul li .menuItem {
         padding-top: 15px;
         padding-bottom: 15px;
-        color: #d2d9db;
+        color: #1f262a;
         text-decoration: none;
         font-family: "Quicksand", sans-serif; }
 
@@ -78,5 +78,21 @@ body {
 
 .openToggler {
   transform: rotate(180deg) translateX(10px); }
+
+.heroText {
+  position: absolute;
+  top: 20vh;
+  padding: 40px;
+  text-align: center;
+  max-width: 100%;
+  overflow: hidden;
+  left: 0;
+  right: 0; }
+  .heroText .heroBold {
+    font-size: 3rem;
+    font-family: "Julius Sans One", sans-serif; }
+  .heroText .heroItalic {
+    font-size: 2rem;
+    font-family: "Press Start 2P", cursive; }
 
 /*# sourceMappingURL=main.css.map */
