@@ -11,6 +11,7 @@ export default class Homepage extends React.Component{
             <Helmet>
                 <title>Feather Consulting - Get in Touch</title>
             </Helmet>
+            
             </Layout>
         )
     }
