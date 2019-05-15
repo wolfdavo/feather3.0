@@ -9,21 +9,21 @@ class Popular extends React.Component {
                 <ServiceCard 
                 image={this.props.images.website} 
                 headerText="Website Design" 
-                text="" 
+                text="Our developers work one-on-one with you (in person) to build a website that will showcase your business beautifully. We offer anything from a static site to display hours, location, and a little bit about your business to a full-fledged ecommerce marketplace." 
                 buttons="contact-btn"
-                btnText="Get online"/>
+                btnText="Learn More"/>
 
                 <ServiceCard 
                 image={this.props.images.social} 
                 headerText="Social Media Management" 
-                text="This is a test" 
+                text="We offer social media management plans on a month-by-month basis. We take care of everything - photos, post scheduling, captions, replying to comments, the whole lot. Now you can take a breather knowing your online presence is always active and growing." 
                 buttons="contact-btn"
-                btnText="Start growing"/>
+                btnText="See plans"/>
 
                 <ServiceCard 
                 image={this.props.images.classes} 
                 headerText="Classes" 
-                text="" 
+                text="Want to learn how to schedule posts, find the best hashtags,and manage your businesses online presence? We host local classes demonstrating step-by-step everything you need to know to grow you business online in 2019." 
                 buttons="classes-btn"
                 btnText="Upcoming Classes"/>
             </div>
