@@ -139,16 +139,16 @@ body {
   color: #1190cb;
   border: 2px solid #1190cb; }
   .btn-outline:hover {
-    color: #d2d9db;
+    color: #fff;
     background-color: #1190cb; }
 
 .btn-solid {
-  color: #d2d9db;
+  color: #fff;
   background-color: #1190cb;
   border: 2px solid #1190cb; }
   .btn-solid:hover {
     color: #1190cb;
-    background-color: #d2d9db; }
+    background-color: #fff; }
 
 .arrow-bounce {
   animation: bounce 1s ease-in-out infinite;
@@ -161,9 +161,39 @@ body {
     transform: translateY(5px); }
   100% {
     transform: translateY(0); } }
+.popular-section {
+  padding: 40px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: #F4F7F6; }
+
+.card-image-wrapper {
+  max-height: 250px; }
+
 .card-body {
   height: auto;
-  max-width: 350px;
-  outline: 2px solid #1f262a; }
+  width: 300px;
+  border: 2px solid #d2d9db;
+  border-radius: 10px;
+  padding: 15px 15px 25px;
+  margin-top: 20px;
+  transition: 0.2s ease-in-out;
+  text-align: center;
+  background-color: white; }
+  .card-body:hover {
+    transform: scale(1.02); }
+
+.card-header {
+  font-family: "Quicksand", sans-serif;
+  color: #1190cb;
+  font-size: 2.5rem;
+  font-weight: 300; }
+
+.card-text {
+  font-family: "Quicksand", sans-serif;
+  color: #1f262a;
+  padding-bottom: 15px; }
 
 /*# sourceMappingURL=main.css.map */

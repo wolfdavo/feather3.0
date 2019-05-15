@@ -1,4 +1,5 @@
 import React from "react"
+import { graphql } from 'gatsby'
 import { Helmet } from "react-helmet" 
 import Layout from "../components/layout"
 import Hero from '../components/hero'
@@ -8,6 +9,11 @@ import Popular from '../components/popular/popular'
 export default class Homepage extends React.Component{
 
     render(){
+      const imageProps = {
+        social: this.props.data.socialMediaImage.childImageSharp.fluid,
+        website: this.props.data.webImage.childImageSharp.fluid,
+        classes: this.props.data.classesImage.childImageSharp.fluid
+      }
         
         return(
             <Layout>
@@ -16,7 +22,7 @@ export default class Homepage extends React.Component{
             </Helmet>
             <Hero image={this.props.data.heroImage}/>
             <AboutSection/>
-            <Popular images={this.props.data.socialMediaImage} />
+            <Popular images={imageProps} />
             </Layout>
         )
     }
@@ -28,7 +34,7 @@ export default class Homepage extends React.Component{
 
 
 export const query = graphql`
-  query FetchImages{
+  query {
 
     heroImage: file(relativePath: { eq: "hero.jpg" }) {
       childImageSharp {

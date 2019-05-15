@@ -6,6 +6,8 @@ import Button from '../widgets/button'
 
 // IMAGE (PASSED DOWN FROM GRAPHQL QUERY)
 
+// HEADERTEXT
+
 // TEXT
 
 // BUTTONS:
@@ -26,12 +28,12 @@ class ServiceCard extends React.Component{
         switch (this.props.buttons) {
             case "contact-btn":
                 return(
-                    <Button style="btn-outline" text="Get in touch" to="contact"/>
+                    <Button styleProp="btn-solid" text={this.props.btnText}to="contact"/>
                 );  
                 
             case "classes-btn":
                 return(
-                    <Button type="btn-solid" text="Upcoming Classes" to="classes"/>
+                    <Button styleProp="btn-solid" text={this.props.btnText} to="classes"/>
                 )
         
             default:
@@ -42,9 +44,9 @@ class ServiceCard extends React.Component{
     render(){
         return(
             <div className="card-body">
-                <div className="card-img-wrapper"><Img fluid={this.props.image.childImageSharp.fluid}/></div>
+                <div className="card-img-wrapper"><Img fluid={this.props.image} style={{alignSelf: "center"}}/></div>
 
-                <div className="card-text-wrapper"><p className="card-text">{this.props.text}</p></div>
+                <div className="card-text-wrapper"><h2 className="card-header">{this.props.headerText}</h2><p className="card-text">{this.props.text}</p></div>
 
                 <div className="cta">{this.RenderButtons()}</div>
             </div>
