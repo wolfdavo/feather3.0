@@ -9,7 +9,7 @@ class Button extends React.Component {
     render(){
         return(
             //takes either btn-outline, or btn-solid as a class.
-            <Link to="contact" className={'btn '+this.props.style}>{this.props.text}</Link>
+            <Link to={this.props.to} className={'btn '+this.props.style}>{this.props.text}</Link>
         )
     }
 }
