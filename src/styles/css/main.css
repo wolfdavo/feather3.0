@@ -6,6 +6,9 @@ body {
   color: #1190cb;
   font-weight: 700; }
 
+html {
+  background-color: #F4F7F6; }
+
 .navbar {
   background-color: #eaeaea;
   padding: 20px;
@@ -196,5 +199,41 @@ body {
   color: #1f262a;
   padding-bottom: 15px;
   font-size: 1.2rem; }
+
+.footer {
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  background-image: url("../../images/pagebreak.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #F4F7F6; }
+
+.footer-logo-wrapper {
+  align-self: center;
+  display: flex;
+  right: 0;
+  margin-top: 20vh;
+  background-color: #1190cb;
+  border-radius: 20px;
+  box-shadow: 0 0 2px; }
+  .footer-logo-wrapper .footer-logo {
+    height: 150px; }
+
+.footer-contact {
+  display: flex;
+  align-self: center;
+  text-align: center;
+  list-style: none; }
+  .footer-contact ul {
+    padding: 0; }
+    .footer-contact ul li {
+      display: block;
+      font-family: "Quicksand", sans-serif;
+      color: #1f262a; }
+      .footer-contact ul li a {
+        color: #1190cb; }
 
 /*# sourceMappingURL=main.css.map */

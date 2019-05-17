@@ -1,10 +1,13 @@
 import React from 'react'
 import Navbar from './navbar/navbar.js'
+import Footer from './footer'
+import Firebase, { FirebaseContext } from './Firebase'
 
 export default ({ children }) => 
 
-    <div>
+    <FirebaseContext.Provider value={new Firebase()}>
         <Navbar/>
         {children}
-    </div>
+        <Footer/>
+    </FirebaseContext.Provider>
 
