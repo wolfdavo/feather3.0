@@ -7,11 +7,11 @@ export default class Homepage extends React.Component{
     render(){
         
         return(
+
             <Layout>
             <Helmet>
-                <title>Feather Consulting - Social Media Management</title>
+                <title>Feather Consulting - websites</title>
             </Helmet>
-            
             </Layout>
         )
     }

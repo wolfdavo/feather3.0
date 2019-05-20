@@ -13,6 +13,7 @@ import Button from '../widgets/button'
 // BUTTONS:
 //      CONTACT-BTN
 //      CLASSES-BTN
+//      TO
 
 
 
@@ -28,12 +29,12 @@ class ServiceCard extends React.Component{
         switch (this.props.buttons) {
             case "contact-btn":
                 return(
-                    <Button styleProp="btn-solid" text={this.props.btnText}to="contact"/>
+                    <Button styleProp="btn-solid" text={this.props.btnText}to={this.props.to}/>
                 );  
                 
             case "classes-btn":
                 return(
-                    <Button styleProp="btn-solid" text={this.props.btnText} to="classes"/>
+                    <Button styleProp="btn-solid" text={this.props.btnText} to={this.props.to}/>
                 )
         
             default:
