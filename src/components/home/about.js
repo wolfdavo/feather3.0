@@ -1,5 +1,5 @@
 import React from 'react'
-import Arrow from './widgets/arrow'
+import Arrow from '../widgets/arrow'
 
 class AboutSection extends React.Component {
 

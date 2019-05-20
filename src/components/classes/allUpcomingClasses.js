@@ -1,5 +1,5 @@
 import React from 'react'
-import firebase from "../components/Firebase/firebase"
+import firebase from "../Firebase/firebase"
 import UpcomingClass from './upcomingClass'
 
 class UpcomingClasses extends React.Component {

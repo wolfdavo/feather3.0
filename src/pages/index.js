@@ -2,8 +2,8 @@ import React from "react"
 import { graphql } from 'gatsby'
 import { Helmet } from "react-helmet" 
 import Layout from "../components/layout"
-import Hero from '../components/hero'
-import AboutSection from '../components/about'
+import Hero from '../components/home/hero'
+import AboutSection from '../components/home/about'
 import Popular from '../components/popular/popular'
 
 export default class Homepage extends React.Component{

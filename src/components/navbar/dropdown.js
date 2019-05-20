@@ -8,7 +8,7 @@ class Dropdown extends React.Component {
         <ul>
         <li><Link className="menuItem" to='/'>Home</Link></li>
         <li><Link className="menuItem" to="/classes">Classes</Link></li>
-        <li><Link className="menuItem" to="/contact">Get in touch</Link></li>
+        <li><Link className="menuItem" to="/social-media-management">Social Media Management</Link></li>
         </ul>
     </nav>)
     }
