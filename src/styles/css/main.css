@@ -236,4 +236,46 @@ html {
       .footer-contact ul li a {
         color: #1190cb; }
 
+.class-body {
+  background-image: url("../../images/background.png");
+  background-repeat: repeat; }
+
+.margin {
+  margin: 10px; }
+
+.upcoming-class-wrapper {
+  max-width: 400px;
+  border-radius: 10px;
+  padding: 20px;
+  margin: auto;
+  margin-bottom: 50px;
+  box-shadow: 0 0 5px #1f262a;
+  font-family: "Quicksand", sans-serif; }
+
+.class-type {
+  font-family: "Quicksand", sans-serif;
+  text-align: center;
+  color: #1190cb;
+  font-size: 2.5rem; }
+
+.classes-header {
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+  font-size: 4rem;
+  color: #1190cb;
+  padding-top: 170px;
+  padding-bottom: 30px;
+  background-image: linear-gradient(to bottom, #d2d9db, #F4F7F6); }
+
+.class-location {
+  font-family: "Julius Sans One", sans-serif;
+  color: #1f262a;
+  padding-left: 30px;
+  margin-bottom: 80px;
+  font-size: 2.2rem; }
+
+.signup-btn {
+  display: block;
+  margin: 40px auto 20px; }
+
 /*# sourceMappingURL=main.css.map */
