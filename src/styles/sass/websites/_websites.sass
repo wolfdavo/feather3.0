@@ -1,0 +1,49 @@
+.website-options
+    display: flex
+    flex-direction: row
+    flex-wrap: wrap
+    justify-content: space-around
+    max-width: 1200px
+    margin: auto
+    padding-top: 60px
+    padding-bottom: 60px
+
+.dark-section
+    background-color: $brand-dark
+    box-shadow: inset 0px 0px 20px 0px rgba(0,0,0,1)
+    overflow: hidden
+
+.wave-pagebreak
+    display: flex
+    width: 120%
+    overflow: hidden
+    transform: translateX(-10px) translateY(5px)
+
+.testimony-section
+    display: flex
+    flex-direction: row
+    flex-wrap: wrap
+    justify-content: space-around
+
+.past-work
+    text-decoration: none
+    height: 200px
+    width: 200px
+    border-radius: 50%
+    justify-content: center
+    display: flex
+    margin: 30px
+    transition: 0.2s ease-in-out
+    box-shadow: 0 0 7px #000
+    &:hover
+        transform: scale(1.03)
+    a
+        display: flex
+        color: $brand-white
+        text-decoration: none
+        font-size: 2rem
+        font-family: $secondary-font
+        align-self: center
+        padding: 0
+        margin: 0
+        text-align: center

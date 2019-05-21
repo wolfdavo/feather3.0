@@ -1,6 +1,8 @@
 import React from 'react'
 import firebase from "../Firebase/firebase"
 import UpcomingClass from './upcomingClass'
+import PageBreak from '../../images/pagebreak-websites.svg'
+
 
 class UpcomingClasses extends React.Component {
     constructor(props){
@@ -33,7 +35,8 @@ class UpcomingClasses extends React.Component {
     render(){
         return(
             <div className="classes-body">
-            <h1 className="classes-header">Upcoming Classes</h1>
+            <h1 className="classes-header dark">Upcoming Classes<br/><br/><img className="wave-pagebreak" src={PageBreak} alt="Page Break"/></h1>
+            
 
                 <h2 className="class-location">☉ Galena, IL</h2>
                 <p className="class-description"></p>

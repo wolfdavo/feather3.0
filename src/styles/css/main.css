@@ -9,6 +9,13 @@ body {
 html {
   background-color: #F4F7F6; }
 
+.section-title {
+  text-align: center;
+  font-family: "Julius Sans One", sans-serif;
+  font-size: 3rem;
+  color: #1f262a;
+  padding: 40px; }
+
 .navbar {
   background-color: #eaeaea;
   padding: 20px;
@@ -200,6 +207,10 @@ html {
   padding-bottom: 15px;
   font-size: 1.2rem; }
 
+.blackBorder {
+  border: none;
+  box-shadow: 0 0 20px black; }
+
 .footer {
   width: 100%;
   max-width: 100%;
@@ -264,9 +275,10 @@ html {
   font-size: 4rem;
   color: #1190cb;
   padding-top: 170px;
-  padding-bottom: 30px;
+  padding-bottom: 80px;
   padding-left: 20px;
   padding-right: 20px;
+  margin-bottom: 0;
   background-image: linear-gradient(to bottom, #d2d9db, #F4F7F6); }
 
 .class-location {
@@ -280,9 +292,15 @@ html {
   display: block;
   margin: 40px auto 20px; }
 
+.dark {
+  background-color: #1f262a;
+  background-image: none;
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0; }
+
 .smm-banner {
   background-image: linear-gradient(to bottom right, #1ECBE1, #1190cb);
-  margin-top: 10vh;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -345,5 +363,55 @@ html {
 .price {
   color: green;
   font-family: "Julius Sans One", sans-serif; }
+
+.website-options {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 1200px;
+  margin: auto;
+  padding-top: 60px;
+  padding-bottom: 60px; }
+
+.dark-section {
+  background-color: #1f262a;
+  box-shadow: inset 0px 0px 20px 0px black;
+  overflow: hidden; }
+
+.wave-pagebreak {
+  display: flex;
+  width: 120%;
+  overflow: hidden;
+  transform: translateX(-10px) translateY(5px); }
+
+.testimony-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+
+.past-work {
+  text-decoration: none;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  justify-content: center;
+  display: flex;
+  margin: 30px;
+  transition: 0.2s ease-in-out;
+  box-shadow: 0 0 7px #000; }
+  .past-work:hover {
+    transform: scale(1.03); }
+  .past-work a {
+    display: flex;
+    color: #F4F7F6;
+    text-decoration: none;
+    font-size: 2rem;
+    font-family: "Julius Sans One", sans-serif;
+    align-self: center;
+    padding: 0;
+    margin: 0;
+    text-align: center; }
 
 /*# sourceMappingURL=main.css.map */
