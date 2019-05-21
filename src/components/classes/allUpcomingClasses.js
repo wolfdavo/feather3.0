@@ -1,7 +1,17 @@
 import React from 'react'
-import firebase from "../Firebase/firebase"
 import UpcomingClass from './upcomingClass'
 import PageBreak from '../../images/pagebreak-websites.svg'
+// import * as Firebase from 'firebase'
+
+// const config = {
+//     apiKey: process.env.GATSBY_API_KEY,
+//     authDomain: process.env.GATSBY_AUTH_DOMAIN,
+//     databaseURL: process.env.GATSBY_DATABASE_URL,
+//     projectId: process.env.GATSBY_PROJECT_ID,
+//     storageBucket: process.env.GATSBY_STORAGE_BUCKET,
+//     messagingSenderId: process.env.GATSBY_MESSAGING_SENDER_ID,
+// };
+
 
 
 class UpcomingClasses extends React.Component {
@@ -9,27 +19,28 @@ class UpcomingClasses extends React.Component {
         super(props);
 
         this.state = {
-            date: '',
-            seats: ''
+            // date: '',
+            seats: 10
         }
     }
 
-    componentDidMount() {
-        const seatsRef = firebase.database().ref('seats');
+    // componentDidMount() {
+    //     Firebase.initializeApp(config);
+    //     const seatsRef = Firebase.database().ref('seats');
 
-        seatsRef.on('value', (snapshot) => {
-            let seats = snapshot.val();
-            for (const upcoming in seats) {
-                const classDate = seats[upcoming].date
-                const classSeats = seats[upcoming].seats
-                this.setState({
-                    date: classDate,
-                    seats: classSeats
-                })
-                console.log(this.state)
-            }
-        });
-    }
+    //     seatsRef.on('value', (snapshot) => {
+    //         let seats = snapshot.val();
+    //         for (const upcoming in seats) {
+    //             const classDate = seats[upcoming].date
+    //             const classSeats = seats[upcoming].seats
+    //             this.setState({
+    //                 date: classDate,
+    //                 seats: classSeats
+    //             })
+    //             console.log(this.state)
+    //         }
+    //     });
+    // }
 
 
     render(){

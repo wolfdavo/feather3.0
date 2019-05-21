@@ -1,4 +1,4 @@
-import * as firebase from 'firebase'
+import * as Firebase from 'firebase'
 
 const config = {
     apiKey: process.env.GATSBY_API_KEY,
@@ -9,6 +9,6 @@ const config = {
     messagingSenderId: process.env.GATSBY_MESSAGING_SENDER_ID,
 };
 
-firebase.initializeApp(config);
+Firebase.initializeApp(config);
 
-export default firebase;
+export default Firebase;
