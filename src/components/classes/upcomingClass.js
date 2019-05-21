@@ -39,7 +39,7 @@ class UpcomingClass extends React.Component {
                         <p>{this.props.seats}</p>
                         </li>
                     </ul>
-                    <button className="btn-solid btn signup-btn">Sign Up</button>
+                    <h2 style={{textAlign: "center"}}>To reserve a seat, please call <br/><a href="tel:6514429483">651 442 9483</a><br/>or email david@featherconsulting.net</h2>
                 </div>
             </div>
 
