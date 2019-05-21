@@ -5,5 +5,9 @@
     .navToggleButton, .dropdown{
         display: flex
     }
+    .classes-header{
+        font-size: 3rem;
+    }
+
         
 }
