@@ -27,7 +27,7 @@ class Navbar extends React.Component {
             <div>
             <Dropdown decider={this.state.dropdownState}/>
             <nav className="navbar">     
-                <img alt="feather consulting nav logo" src={Logo} className='navLogo'/>
+                <Link to="/"><img alt="feather consulting nav logo" src={Logo} className='navLogo'/></Link>
                 <ul className='navMenu'>
                     <li><Link className="menuItem" to='/'>Home</Link></li>
                     <li><Link className="menuItem" to="/classes">Classes</Link></li>

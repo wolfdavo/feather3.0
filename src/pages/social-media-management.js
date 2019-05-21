@@ -22,7 +22,11 @@ export default class Homepage extends React.Component{
                 <div className="img-wrapper"><Img fluid={this.props.data.socialMediaImage.childImageSharp.fluid}/>
                 </div>
                 
-                <h3 className="smm-banner-text">Our aim at Feather is to take weight off your shoulders. One of the ways we do that is helping you manage your social media. <br/> Once a month, one of our team members will come in to take photos of your business/products, write captions, schedule posts, and find ways to increase organic growth. Take a look below at the four different plans we have available, each one varying in post frequency.</h3>
+                <h3 className="smm-banner-text">Our aim at Feather is to take weight off your shoulders. One of the ways we do that is helping you manage your social media. <br/> Once a month, one of our team members will come in to take photos of your business/products, write captions, schedule posts, and find ways to increase organic growth. Take a look below at the four different plans we have available, each one varying in post frequency.
+                <br/>
+                <br/>
+                To get in touch with one of our social media managers, please call us at <a href="tel:6514429483">651 442 9483</a> or email David at david@featherconsulting.net
+                </h3>
                 </div>
             </div>
 
