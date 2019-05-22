@@ -2,6 +2,8 @@ import React from 'react'
 import { Link } from 'gatsby'
 import Logo from './assets/featherNavLogo.png'
 import Dropdown from './dropdown'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faAngleDown } from '@fortawesome/free-solid-svg-icons'
 
 class Navbar extends React.Component {
     constructor(props){
@@ -35,7 +37,7 @@ class Navbar extends React.Component {
                     <li><Link className="menuItem" to="/websites">Websites</Link></li>
 
                 </ul>
-                <div onClick={this.toggleDropDownMenu} className={"navToggleButton " + this.state.dropdownState + "Toggler"}>&#11167;</div>
+                <div onClick={this.toggleDropDownMenu} className={"navToggleButton " + this.state.dropdownState + "Toggler"}><FontAwesomeIcon icon={faAngleDown}/></div>
             </nav>
             </div>
         )

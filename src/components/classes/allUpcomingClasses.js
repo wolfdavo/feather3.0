@@ -1,6 +1,10 @@
 import React from 'react'
 import UpcomingClass from './upcomingClass'
 import PageBreak from '../../images/pagebreak-websites.svg'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons'
+
+
 // import * as Firebase from 'firebase'
 
 // const config = {
@@ -49,7 +53,7 @@ class UpcomingClasses extends React.Component {
             <h1 className="classes-header dark">Upcoming Classes<br/><br/><img className="wave-pagebreak" src={PageBreak} alt="Page Break"/></h1>
             
 
-                <h2 className="class-location">☉ Galena, IL</h2>
+                <h2 className="class-location"><FontAwesomeIcon icon={faMapMarkerAlt}/> Galena, IL</h2>
                 <p className="class-description"></p>
                     <UpcomingClass seats={this.state.seats}/>
 
