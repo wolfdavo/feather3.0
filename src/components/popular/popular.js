@@ -17,7 +17,7 @@ class Popular extends React.Component {
                 <ServiceCard 
                 image={this.props.images.social} 
                 headerText="Social Media Management" 
-                text="Take a look at our social media management plans! We take care of everything - photos, post scheduling, captions, replying to comments, the whole lot. Now you can take a breather knowing your online presence is always active and growing." 
+                text="We take care of everything - photos, post scheduling, captions, replying to comments, the whole lot. Now you can take a breather knowing your online presence is always active and growing." 
                 buttons="contact-btn"
                 btnText="See plans"
                 to="social-media-management"/>
