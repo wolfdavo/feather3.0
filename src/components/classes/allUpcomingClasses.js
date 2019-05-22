@@ -50,7 +50,7 @@ class UpcomingClasses extends React.Component {
     render(){
         return(
             <div className="classes-body">
-            <h1 className="classes-header dark">Upcoming Classes<br/><br/><img className="wave-pagebreak" src={PageBreak} alt="Page Break"/></h1>
+            <h1 className="classes-header dark"><h1 className="class-header-txt">Upcoming Classes</h1><br/><br/><img className="wave-pagebreak" src={PageBreak} alt="Page Break"/></h1>
             
 
                 <h2 className="class-location"><FontAwesomeIcon icon={faMapMarkerAlt}/> Galena, IL</h2>
