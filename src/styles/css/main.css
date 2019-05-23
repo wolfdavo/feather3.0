@@ -29,7 +29,10 @@ html {
 
 .wave-flipped {
   overflow-y: visible;
-  transform: rotate(180deg) translateY(-80px) translateX(50px); }
+  transform: rotate(180deg) translateX(40px);
+  margin-right: -50px;
+  position: absolute;
+  margin-top: -2px; }
 
 .navbar {
   background-color: #F4F7F6;
@@ -327,8 +330,7 @@ html {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
-  padding-top: 30px; }
+  justify-content: space-around; }
 
 .smm-banner-text {
   max-width: 600px;

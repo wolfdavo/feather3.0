@@ -20,9 +20,10 @@ export default class Homepage extends React.Component{
 
             <div className="classes-body websites-page">
                 <h1 className="classes-header">Websites</h1>
-                <img className="wave-pagebreak wave-flipped" src={PageBreak} alt="Page Break"/>
 
                     <div className="smm-banner">
+                    <img className="wave-pagebreak wave-flipped" src={PageBreak} alt="Page Break"/>
+
                         <div className="banner-content">
                         <div className="img-wrapper"><Img fluid={this.props.data.webImage.childImageSharp.fluid}/>
                         </div>

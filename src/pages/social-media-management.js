@@ -19,8 +19,9 @@ export default class Homepage extends React.Component{
             </Helmet>
             <div className="classes-body">
             <h1 className="classes-header">Social Media Management Plans</h1>
-            <img className="wave-pagebreak wave-flipped" src={PageBreak} alt="Page Break"/>
             <div className="smm-banner">
+            <img className="wave-pagebreak wave-flipped" src={PageBreak} alt="Page Break"/>
+
                 <div className="banner-content">
                 <div className="img-wrapper"><Img fluid={this.props.data.socialMediaImage.childImageSharp.fluid}/>
                 </div>
