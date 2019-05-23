@@ -10,7 +10,7 @@ export default class Plans extends React.Component {
                     <hr/>
                     <p className="about-plan">Keep your social media channels updated with our bare minimum plan, offering 2 posts per week for only $40/month.</p>
                     <h3>Total posts/week: <span style={{fontWeight:'bold'}}>2</span></h3>
-                    <h1 className="price">$39</h1>
+                    <h1 className="price">$39/month</h1>
                 </div>
 
                 <div className="plan">
@@ -18,7 +18,7 @@ export default class Plans extends React.Component {
                     <hr/>
                     <p className="about-plan">Provide a little boost to the weekend rush with 4 posts week. We reccommend doing 2 on Friday and 2 on Saturday to make the most of the weekend vibes.</p>
                     <h3>Total posts/week: <span style={{fontWeight:'bold'}}>4</span></h3>
-                    <h1 className="price">$69</h1>
+                    <h1 className="price">$69/month</h1>
                 </div>
 
                 <div className="plan mvp">
@@ -27,7 +27,7 @@ export default class Plans extends React.Component {
                     <hr/>
                     <p className="about-plan">This is our most popular plan. It lets you focus on the weekend, but not leave everyone hanging during the work week. Fantastic option for any small business. </p>
                     <h3>Total posts/week: <span style={{fontWeight:'bold'}}>8</span></h3>
-                    <h1 className="price">$129</h1>
+                    <h1 className="price">$129/month</h1>
                 </div>
 
                 <div className="plan">
@@ -35,7 +35,7 @@ export default class Plans extends React.Component {
                     <hr/>
                     <p className="about-plan">Our best value plan! Perfect for active businesses wanting to grow an organic following and always have something new on their feed. </p>
                     <h3>Total posts/week: <span style={{fontWeight:'bold'}}>14</span></h3>
-                    <h1 className="price">$199</h1>
+                    <h1 className="price">$199/month</h1>
                 </div>
 
             </div>

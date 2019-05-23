@@ -21,6 +21,16 @@ html {
   color: #1f262a;
   padding: 40px; }
 
+.wave-pagebreak {
+  display: flex;
+  width: 120%;
+  overflow: hidden;
+  transform: translateX(-10px) translateY(5px); }
+
+.wave-flipped {
+  overflow-y: visible;
+  transform: rotate(180deg) translateY(-80px) translateX(50px); }
+
 .navbar {
   background-color: #F4F7F6;
   padding: 20px;
@@ -283,7 +293,7 @@ html {
   font-size: 4rem;
   color: #1190cb;
   padding-top: 170px;
-  padding-bottom: 80px;
+  padding-bottom: 30px;
   padding-left: 30px;
   padding-right: 30px;
   margin-bottom: 0;
@@ -317,7 +327,8 @@ html {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around; }
+  justify-content: space-around;
+  padding-top: 30px; }
 
 .smm-banner-text {
   max-width: 600px;
@@ -391,12 +402,6 @@ html {
   background-color: #1f262a;
   box-shadow: inset 0px 0px 20px 0px black;
   overflow: hidden; }
-
-.wave-pagebreak {
-  display: flex;
-  width: 120%;
-  overflow: hidden;
-  transform: translateX(-10px) translateY(5px); }
 
 .testimony-section {
   display: flex;
