@@ -9,10 +9,25 @@ class Navbar extends React.Component {
     constructor(props){
         super(props);
         this.state = {
-            dropdownState: 'closed'
+            dropdownState: 'closed',
+            isTop: true
         }
 
         this.toggleDropDownMenu = this.toggleDropDownMenu.bind(this);
+        this.onScroll = this.onScroll.bind(this);
+    }
+
+    componentDidMount() {
+        document.addEventListener('scroll', () => {
+          const isTop = window.scrollY < 100;
+          if (isTop !== this.state.isTop) {
+            this.onScroll(isTop);
+          }
+        });
+    }
+
+    onScroll(isTop) {
+        this.setState({ isTop });
     }
 
     toggleDropDownMenu = () => {
@@ -28,7 +43,7 @@ class Navbar extends React.Component {
         return(
             <div>
             <Dropdown decider={this.state.dropdownState}/>
-            <nav className="navbar">     
+            <nav className={'navbar ' + (this.state.isTop ? "navbar-top" : "navbar-scrolled")}>     
                 <Link to="/"><img alt="feather consulting nav logo" src={Logo} className='navLogo'/></Link>
                 <ul className='navMenu'>
                     <li><Link className="menuItem" to='/'>Home</Link></li>
