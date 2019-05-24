@@ -70,9 +70,11 @@ html {
       font-size: 1.2rem;
       font-family: "Quicksand", sans-serif;
       text-transform: capitalize;
-      padding: 0 10px; }
+      padding: 0 10px;
+      transition: 0.2s ease-in-out; }
       .navMenu li .menuItem:hover {
-        color: #1190cb; }
+        color: #1190cb;
+        transform: scale(1.03); }
 
 .navToggleButton {
   color: #1190cb;
@@ -117,6 +119,8 @@ html {
 .navbar-top {
   background-color: rgba(0, 0, 0, 0);
   box-shadow: none; }
+  .navbar-top .menuItem {
+    color: #1190cb !important; }
 
 .heroText {
   position: absolute;
