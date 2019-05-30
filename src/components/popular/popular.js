@@ -25,7 +25,7 @@ class Popular extends React.Component {
                 <ServiceCard 
                 image={this.props.images.classes} 
                 headerText="Classes" 
-                text="Want to learn how to schedule posts, find the best hashtags,and manage your businesses online presence? We host local classes demonstrating step-by-step everything you need to know to grow you business online in 2019." 
+                text="Want to learn how to schedule posts, find the best hashtags,and manage your businesses online presence? We host local classes demonstrating step-by-step everything you need to know to grow your business online in 2019." 
                 buttons="classes-btn"
                 btnText="Upcoming Classes"
                 to="classes"/>
