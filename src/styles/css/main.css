@@ -199,13 +199,14 @@ html {
   100% {
     transform: translateY(0); } }
 .popular-section {
-  padding: 40px;
+  padding: 70px 40px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
   background-color: #F4F7F6;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4); }
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  background-image: linear-gradient(to bottom right, #1ECBE1, #1190cb); }
 
 .card-image-wrapper {
   max-height: 250px; }
@@ -213,13 +214,13 @@ html {
 .card-body {
   height: auto;
   width: 300px;
-  border: 2px solid #d2d9db;
   border-radius: 10px;
   padding: 15px 15px 40px;
   margin-top: 20px;
   transition: 0.2s ease-in-out;
   text-align: center;
-  background-color: white; }
+  background-color: white;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); }
   .card-body:hover {
     transform: scale(1.02); }
 
