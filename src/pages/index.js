@@ -5,6 +5,7 @@ import Layout from "../components/layout"
 import Hero from '../components/home/hero'
 import AboutSection from '../components/home/about'
 import Popular from '../components/popular/popular'
+import SignupForm from '../components/widgets/mailSignup'
 
 export default class Homepage extends React.Component{
 
@@ -23,6 +24,7 @@ export default class Homepage extends React.Component{
             <Hero image={this.props.data.heroImage}/>
             <AboutSection/>
             <Popular images={imageProps} />
+            <SignupForm/>
             </Layout>
         )
     }

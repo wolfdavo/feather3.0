@@ -275,6 +275,23 @@ html {
       .footer-contact ul li a {
         color: #1190cb; }
 
+.signup-form {
+  font-family: "Julius Sans One", sans-serif;
+  text-align: center;
+  padding: 30px; }
+  .signup-form h3 {
+    font-size: 2rem; }
+  .signup-form input {
+    font-size: 2rem;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    font-family: "Quicksand", sans-serif;
+    margin: 7px; }
+  .signup-form .email-field {
+    max-width: 90%; }
+
 .class-body {
   background-image: url("../../images/background.png");
   background-repeat: repeat; }
