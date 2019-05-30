@@ -30,8 +30,6 @@ html {
 .wave-flipped {
   overflow-y: visible;
   transform: rotate(180deg) translateX(40px);
-  margin-right: -50px;
-  position: absolute;
   margin-top: -2px; }
 
 .navbar {
@@ -338,9 +336,15 @@ html {
 .smm-banner {
   background-image: linear-gradient(to bottom right, #1ECBE1, #1190cb);
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
-  justify-content: space-around; }
+  justify-content: space-around;
+  max-width: 100%; }
+
+.banner-content {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%; }
 
 .smm-banner-text {
   max-width: 600px;
