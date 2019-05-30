@@ -88,7 +88,7 @@ export default class Homepage extends React.Component{
 
                         <PastWork
                         link="https://bintowa.com/"
-                        color="#fff"
+                        color="#000"
                         title="BinTowa"/>
 
                         <PastWork
