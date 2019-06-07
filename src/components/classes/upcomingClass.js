@@ -26,7 +26,7 @@ class UpcomingClass extends React.Component {
 
                         <li>
                         <h3>When:</h3>
-                        <p>Tuesday, 06/11/2019 at 7:00 PM - 8:00 PM</p>
+                        <p>Tuesday, 06/18/2019 at 7:00 PM - 8:00 PM</p>
                         </li>
 
                         <li>

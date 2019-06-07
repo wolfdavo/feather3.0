@@ -60,7 +60,7 @@ export default class Homepage extends React.Component{
                         image={this.props.data.webStatic.childImageSharp.fluid}
                         headerText="Small Business Website"
                         text="Our static website is most popular amoung small business owners. Affordable, custom, and perfect for getting your business out on the web! With up to 3 pages, some of our clients like to have a home page, about us page, and contact us page, while others like to put it all on one for ease of use. You'll get to work one-on-one with one of our developers (perhaps over a coffee?) to make sure you're excited and delighted with your new website."
-                        price="$299 + domain + $30/month hosting"
+                        price="$299 + domain + $20/month hosting"
                         />
 
                         <ServiceCard
