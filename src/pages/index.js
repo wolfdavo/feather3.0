@@ -24,7 +24,7 @@ export default class Homepage extends React.Component{
             <Hero image={this.props.data.heroImage}/>
             <AboutSection/>
             <Popular images={imageProps} />
-            <SignupForm/>
+            <SignupForm title="Signup for specials and announcements!"/>
             </Layout>
         )
     }

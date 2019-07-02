@@ -3,6 +3,7 @@ import UpcomingClass from './upcomingClass'
 import PageBreak from '../../images/pagebreak-websites.svg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons'
+import SignupForm from '../widgets/mailSignup'
 
 
 // import * as Firebase from 'firebase'
@@ -52,10 +53,9 @@ class UpcomingClasses extends React.Component {
             <div className="classes-body">
             <h1 className="classes-header dark"><h1 className="class-header-txt">Upcoming Classes</h1><br/><br/><img className="wave-pagebreak" src={PageBreak} alt="Page Break"/></h1>
             
-
-                <h2 className="class-location"><FontAwesomeIcon icon={faMapMarkerAlt}/> Galena, IL</h2>
-                <p className="class-description"></p>
-                    <UpcomingClass seats={this.state.seats}/>
+            <div>
+                <SignupForm title="Signup to get notified on upcoming dates!"/>
+            </div>
 
             </div>
         )

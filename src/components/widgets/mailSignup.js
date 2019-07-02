@@ -33,7 +33,7 @@ export default class SignupForm extends React.Component {
     render(){
         return(
             <div className="signup-form">
-            <h3>Signup for specials and announcements!</h3>
+            <h3>{this.props.title}</h3>
                 <form onSubmit={this.handleSubmit}>
                 <input type="email" name="email"  placeholder="email" className="email-field" onChange={this.handleChange}></input>
                 <input type="submit" value="Signup!" className="btn-solid form-btn"/>
