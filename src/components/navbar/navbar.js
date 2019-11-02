@@ -47,9 +47,9 @@ class Navbar extends React.Component {
                 <Link to="/"><img alt="feather consulting nav logo" src={Logo} className='navLogo'/></Link>
                 <ul className='navMenu'>
                     <li><Link className="menuItem" to='/'>Home</Link></li>
-                    <li><Link className="menuItem" to="/classes">Classes</Link></li>
-                    <li><Link className="menuItem" to="/social-media-management">Social Media Management</Link></li>
                     <li><Link className="menuItem" to="/websites">Websites</Link></li>
+                    <li><Link className="menuItem" to="/social-media-management">Social Media Management</Link></li>
+                    <li><Link className="menuItem" to="/classes">Classes</Link></li>
 
                 </ul>
                 <div onClick={this.toggleDropDownMenu} className={"navToggleButton " + this.state.dropdownState + "Toggler"}><FontAwesomeIcon icon={faAngleDown}/></div>
